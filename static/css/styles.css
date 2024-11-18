@@ -1,0 +1,219 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #d4fc79, #96e6a1); /* Verde suave */
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Cabeçalho */
+h1 {
+  color: #2c3e50;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Formulários */
+form {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+form:hover {
+  transform: scale(1.02);
+}
+
+/* Subtítulos */
+form h2 {
+  color: #2c3e50;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Rótulos e entradas */
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  color: #34495e;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #555;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+  border-color: #1abc9c;
+  outline: none;
+  box-shadow: 0 0 5px rgba(26, 188, 156, 0.5);
+}
+
+/* Botões */
+button {
+  background: #1abc9c; /* Verde relaxante */
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+button:hover {
+  background: #16a085;
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+  h1 {
+      font-size: 2rem;
+  }
+
+  form {
+      padding: 15px;
+  }
+
+  input[type="text"] {
+      font-size: 0.9rem;
+  }
+
+  button {
+      font-size: 0.9rem;
+  }
+}
+
+
+/* Contêiner para a resposta */
+.response-container {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Caixa de resposta */
+.response-box {
+  background: #f0f8f7; 
+  border: 1px solid #1abc9c;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Botão para voltar */
+.btn-home {
+  display: inline-block;
+  text-decoration: none;
+  background: #1abc9c;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-home:hover {
+  background: #16a085;
+}
+
+/* Contêiner para feedback */
+.feedback-container {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-container h1 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.feedback-container p {
+  color: #34495e;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+/* Campos de formulário */
+.feedback-container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #555;
+  box-sizing: border-box;
+}
+
+.feedback-container input[type="text"]:focus {
+  border-color: #1abc9c;
+  outline: none;
+  box-shadow: 0 0 5px rgba(26, 188, 156, 0.5);
+}
+
+/* Botão de envio */
+.feedback-container button {
+  background: #1abc9c;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.feedback-container button:hover {
+  background: #16a085;
+}
+
+/* Feedback enviado */
+.feedback-response-container {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-response-container h1 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+

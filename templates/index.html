@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Saúde Mental</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+
+<body>
+    <h1>Chatbot Saúde Mental</h1>
+    <form action="/get" method="POST">
+        <label for="msg">Pergunta:</label>
+        <input type="text" id="msg" name="msg" required>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <form action="/feedback" method="POST">
+        <h2>Feedback</h2>
+        <label for="pergunta">Pergunta:</label>
+        <input type="text" id="pergunta" name="pergunta" required><br>
+        <label for="resposta">Resposta:</label>
+        <input type="text" id="resposta" name="resposta" required><br>
+        <label for="correta">Correta?</label>
+        <input type="text" id="correta" name="correta" required><br>
+        <button type="submit">Enviar Feedback</button>
+    </form>
+</body>
+
+</html>
