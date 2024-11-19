@@ -102,4 +102,8 @@ Acesse o chatbot no navegador em http://localhost:5000.
 
 - **Entrada de Texto**: O usuário pode enviar mensagens na interface web.
 
+![Campo de Pergunta](/assets/EX01.png)
+
 - **Resposta:** O chatbot responderá com base no modelo treinado ou integrará respostas da API da OpenAI.
+
+![Campo de Resposta](/assets/EX02.png)
