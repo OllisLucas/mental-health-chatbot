@@ -107,3 +107,30 @@ Acesse o chatbot no navegador em http://localhost:5000.
 - **Resposta:** O chatbot responderá com base no modelo treinado ou integrará respostas da API da OpenAI.
 
 ![Campo de Resposta](/assets/EX02.png)
+
+## 🤝 Integrantes
+
+Integrantes
+Este projeto foi desenvolvido pelos seguintes integrantes:
+
+Lucas Macedo de Oliveira
+RA: 1272118785
+Função: Desenvolvimento do backend e treinamento do modelo de ML
+
+Victor
+RA: 
+Função: Implementação da interface web (Flask) e integração com a API da OpenAI
+
+Rafael 
+RA: 
+Função: Manipulação de dados com pandas e ajuste do modelo de ML
+
+
+RA: 
+Função: 
+
+RA: 
+Função: 
+
+RA: 
+Função: 
