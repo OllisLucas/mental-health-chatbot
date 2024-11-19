@@ -1,0 +1,6 @@
+openai==0.27.8          # Para interagir com a API da OpenAI (usado no app.py)
+pandas==2.1.2           # Manipulação de dados (usado nos dois arquivos)
+nltk==3.9.0             # Processamento de linguagem natural (usado no app.py)
+Flask==2.3.2            # Criação de interfaces web (usado no app.py)
+scikit-learn==1.3.0     # Machine Learning (usado nos dois arquivos)
+joblib==1.4.1           # Salvar/carregar modelos e pipelines (usado nos dois arquivos)
