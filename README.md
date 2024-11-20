@@ -110,27 +110,28 @@ Acesse o chatbot no navegador em http://localhost:5000.
 
 ## 🤝 Integrantes
 
-Integrantes
 Este projeto foi desenvolvido pelos seguintes integrantes:
 
-Lucas Macedo de Oliveira
-RA: 1272118785
-Função: Desenvolvimento do backend e treinamento do modelo de ML
+- **Lucas Macedo de Oliveira**  
+  - **RA:** 1272118785  
+  - **Função:** Desenvolvimento do backend e treinamento do modelo de ML  
 
-Victor
-RA: 
-Função: Implementação da interface web (Flask) e integração com a API da OpenAI
+- **Victor Hugo Cordeiro fucilieri**  
+  - **RA:** 1272123431  
+  - **Função:** Implementação da interface web (Flask) e integração com a API da OpenAI  
 
-Rafael 
-RA: 
-Função: Manipulação de dados com pandas e ajuste do modelo de ML
+- **Rafael Miranda Lima**  
+  - **RA:** 1272117553  
+  - **Função:** Desenvolvimento do backend e treinamento do modelo de ML  
 
+- **Guilherme Curvelo de Jesus Fraga**  
+  - **RA:** 1272116404  
+  - **Função:** Manipulação de dados com Pandas e ajuste do modelo de ML  
 
-RA: 
-Função: 
+- **César Rafael Goes Vasconcelos Almeida Souza**  
+  - **RA:** 1272118044  
+  - **Função:** Manipulação de dados com Pandas e ajuste do modelo de ML  
 
-RA: 
-Função: 
-
-RA: 
-Função: 
+- **Guilherme Reis Correia**  
+  - **RA:** 12722123056  
+  - **Função:** Implementação da interface web (Flask) e integração com a API da OpenAI
